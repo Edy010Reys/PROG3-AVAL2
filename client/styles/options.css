@@ -1,0 +1,57 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+main {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(90, 69, 69);
+}
+
+#input input {
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid rgb(170, 136, 73);
+    border-radius: 20px;
+}
+
+#backInitial {
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#cards ul {
+    margin: 1%;
+    padding: 0%;
+}
+
+#cards li {
+    width: 300px;
+    height: 185px;
+    border-radius: 20%;
+    border: 2px solid rgb(170, 136, 73);
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 8px;
+    background-color: gray;
+    border-radius: 20px;
+    border: 1px solid;
+}
+
+a:hover {
+    color: rgb(39, 36, 36);
+}

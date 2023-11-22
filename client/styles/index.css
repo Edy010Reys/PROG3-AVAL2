@@ -1,0 +1,86 @@
+body {
+    margin: 0%;
+}
+
+header {
+    background-color: rgb(136, 110, 46);
+    color: white;
+}
+
+#tableHeader img {
+    height: 100px;
+    padding-top: 5px;
+}
+
+#tableHeader {
+    width: 100%;
+}
+
+#tableHeader td {
+    width: 33%;
+}
+
+#cellMiddle {
+    text-align: center;
+    font-size: 40px;
+}
+
+#cellRight {
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    font-size: 17px;
+    margin: 1%;
+    padding: 5px;
+    color: white;
+    background-color: rgb(105, 57, 57);
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+a:hover {
+    color: rgb(39, 36, 36);
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 50px;
+    padding: 5px;
+}
+
+#welcome {
+    text-align: center;
+    margin: 1%;
+}
+
+#tableBody td {
+    width: 50%;
+}
+
+#tableBody img {
+    width: 100%;
+}
+
+#tableFooter img {
+    width: 100px;
+}
+
+#tableFooter td {
+    width: 33%;
+}
+
+#footerMiddle {
+    text-align: center;
+    font-size: 20px;
+}
+
+#footerRight {
+    text-align: right;
+}
