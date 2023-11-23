@@ -6,20 +6,18 @@ input.addEventListener('input', async () => {
     name: input.value
   }
   let data = await postNameCadidante(search)
-
   cards.innerHTML = ''
   data.map((elem) => {
     cards.insertAdjacentHTML('afterbegin',
     `<ul>
-    <li id="card">
-      <h3>${elem.nome}</h3>
-      <p>Cargo: ${elem.cargo}</p>
-      <p>Quantidade de Votos: ${elem.votacao}</p>
-      <p>Status: ${elem.status}</p>
-    </li>
+      <li id="card">
+        <h3>${elem.nome}</h3>
+        <p>Cargo: ${elem.cargo}</p>
+        <p>Votos recebido: ${elem.votacao}</p>
+        <p>Status: ${elem.status}</p>
+      </li>
     </ul>`);
   })
-
   if (input.value == '') {
     cards.innerHTML = ''
   }
