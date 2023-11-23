@@ -8,7 +8,7 @@ main {
 }
 
 h1 {
-    color: rgb(90, 69, 69);
+    color: gray;
 }
 
 #input input {
@@ -40,6 +40,14 @@ h1 {
     border-radius: 20%;
     border: 2px solid rgb(170, 136, 73);
     list-style: none;
+    color:  gray;
+}
+
+select {
+    font-size: 15px;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 5px;
 }
 
 a {
