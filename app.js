@@ -46,14 +46,14 @@ app.post('/municipio', (request, response) => {
   sqlite.database.all(`SELECT cand_nome, cargo_nome, cand_status, cand_votos FROM votos_cand_municipio WHERE muni_nome LIKE '${city.toUpperCase()}%';`, [], (err, rows) => {
     if (err) {throw err;}
     let result = rows.map((row) => {
-      if(row.cargo_nome === 0){
+      if(row.cand_status === 0){
         elect = 'Não eleito'
-      } else if(row.cargo_nome === 1){
+      } else if(row.cand_status === 1){
         elect = 'Eleito'
       }
       return {
         nome: row.cand_nome,
-        cargo: row.cand_status,
+        cargo: row.cargo_nome,
         votacao: row.cand_votos,
         status: elect
       }
