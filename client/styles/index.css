@@ -104,7 +104,7 @@ section {
     }
 
     #cellMiddle {
-        font-size: 33px;
+        font-size: 27px;
     }
 
     #cellRight #optionSelect {
@@ -123,6 +123,14 @@ section {
 
     option {
         background-color: orange;
+    }
+
+    #welcome {
+        font-size: 17px;
+    }
+
+    section {
+        font-size: 17px;
     }
 
     #tableBody td {
@@ -153,7 +161,7 @@ section {
 
     #optionSelect {
         display: block;
-        font-size: 10px;
+        font-size: 11px;
         border-radius: 20px;
         border: 1px solid;
         padding: 1px;
@@ -178,11 +186,11 @@ section {
     }
 
     #welcome {
-        font-size: 10px;
+        font-size: 14px;
     }
     
     section {
-        font-size: 10px;
+        font-size: 14px;
     }
 
     #tableBody td {
