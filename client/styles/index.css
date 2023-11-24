@@ -25,11 +25,7 @@ header {
     font-size: 40px;
 }
 
-#cellRight {
-    text-align: right;
-}
-
-#cellRight #hamburguer {
+select {
     display: none;
 }
 
@@ -111,21 +107,17 @@ section {
         font-size: 33px;
     }
 
-    #cellRight {
-        text-align: center;
+    #cellRight #optionSelect {
+        margin: 20%;
     }
 
     select {
-        display: none;
-        font-size: 13px;
+        display: block;
+        font-size: 15px;
         border-radius: 20px;
         border: 1px solid;
         padding: 1px;
-    }
-
-    #hamburguer {
-        cursor: pointer;
-        font-size: 30px;
+        background-color: gray;
     }
 
     option {
@@ -154,17 +146,17 @@ section {
         display: none;
     }
 
-    #hamburguer {
-        cursor: pointer;
-        font-size: 25px;
+    #cellRight #optionSelect {
+        margin: 10%;
     }
 
-    select {
-        display: none;
-        font-size: 8.5px;
+    #optionSelect {
+        display: block;
+        font-size: 10px;
         border-radius: 20px;
         border: 1px solid;
         padding: 1px;
+        background-color: gray;
     }
 
     option {
@@ -181,14 +173,6 @@ section {
 
     #cellMiddle {
         font-size: 20px;
-    }
-
-    #cellRight {
-        text-align: center;
-    }
-
-    #cellRight #hamburguer {
-        display: block;
     }
 
     #welcome {
