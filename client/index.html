@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Página Inicial</title>
     <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
@@ -11,9 +11,19 @@
         <table id="tableHeader">
             <tbody>
                 <tr>
-                    <td><img src="./images/brasaoPiaui.png" alt="Brasão do Estado"></td>
+                    <td id="cellLeft"><img src="./images/brasaoPiaui.png" alt="Brasão do Estado"></td>
                     <td id="cellMiddle">Eleições Piauí 2022</td>
                     <td id="cellRight">
+                        <div id="hamburguer" onclick="showOptions()">
+                            &#9776;
+                            <select id="optionSelect" onchange="redirectPage()">
+                                <option value="">Selecione uma Opção</option>
+                                <option value="./html/candidates.html">Candidato</option>
+                                <option value="./html/city.html">Município</option>
+                                <option value="./html/office.html">Cargo</option>
+                                <option value="./html/allResults.html">Resultado Geral</option>
+                            </select>
+                        </div>
                         <a href="./html/candidates.html">Candidatos</a>
                         <a href="./html/city.html">Municípios</a>
                         <a href="./html/office.html">Cargo</a>
@@ -59,5 +69,6 @@
             </tbody>
         </table>
     </footer>
+    <script src="./js/index.js"></script>
 </body>
 </html>
