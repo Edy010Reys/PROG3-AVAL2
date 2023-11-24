@@ -128,6 +128,10 @@ section {
         font-size: 30px;
     }
 
+    option {
+        background-color: orange;
+    }
+
     #tableBody td {
         display: block;
         width: 90%;
