@@ -57,7 +57,7 @@ h1 {
 
 #cards li {
     width: 300px;
-    height: 185px;
+    height: 200px;
     border-radius: 20%;
     border: 2px solid rgb(170, 136, 73);
     list-style: none;
@@ -67,6 +67,10 @@ h1 {
 h3 {
     margin-top: 10%;
     margin-bottom: 10%;
+}
+
+#total {
+    margin: 0%;
 }
 
 select {

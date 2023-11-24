@@ -163,6 +163,10 @@ section {
         padding: 1px;
     }
 
+    option {
+        background-color: blue;
+    }
+
     #tableHeader img {
         height: 50px;
     }
