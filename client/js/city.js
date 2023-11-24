@@ -18,7 +18,7 @@ input.addEventListener('input', async () => {
             <p>Status: ${elem.status}</p>
         </li>
       </ul>`)
-      votes.innerHTML = `<h3>Quantidade total de votos no município de ${elem.cidade}: ${elem.votesOfCity}</h3>`
+      votes.innerHTML = `<h3 id="total">Total de votos no município de ${elem.cidade}: ${elem.votesOfCity}</h3>`
     })
   }
   if (input.value == '') {
