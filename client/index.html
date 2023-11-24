@@ -14,16 +14,13 @@
                     <td id="cellLeft"><img src="./images/brasaoPiaui.png" alt="Brasão do Estado"></td>
                     <td id="cellMiddle">Eleições Piauí 2022</td>
                     <td id="cellRight">
-                        <div id="hamburguer" onclick="showOptions()">
-                            &#9776;
-                            <select id="optionSelect" onchange="redirectPage()">
-                                <option value="">Selecione uma Opção</option>
-                                <option value="./html/candidates.html">Candidato</option>
-                                <option value="./html/city.html">Município</option>
-                                <option value="./html/office.html">Cargo</option>
-                                <option value="./html/allResults.html">Resultado Geral</option>
-                            </select>
-                        </div>
+                        <select id="optionSelect" onchange="redirectPage()">
+                            <option value="">Selecione a Opção</option>
+                            <option value="./html/candidates.html">Candidato</option>
+                            <option value="./html/city.html">Município</option>
+                            <option value="./html/office.html">Cargo</option>
+                            <option value="./html/allResults.html">Resultado Geral</option>
+                        </select>
                         <a href="./html/candidates.html">Candidatos</a>
                         <a href="./html/city.html">Municípios</a>
                         <a href="./html/office.html">Cargo</a>
