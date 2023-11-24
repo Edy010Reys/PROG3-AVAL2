@@ -155,7 +155,6 @@ app.post('/resultadogeral', (request, response) => {
   }
 })
 
-
 app.listen(3000, () => {
     console.log('Servidor funcionando em http://localhost:3000/')
 })
