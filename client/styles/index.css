@@ -29,6 +29,10 @@ header {
     text-align: right;
 }
 
+#cellRight #hamburguer {
+    display: none;
+}
+
 a {
     text-decoration: none;
     font-size: 17px;
@@ -57,6 +61,7 @@ section {
 
 #welcome {
     text-align: center;
+    text-indent: 0%;
     margin: 1%;
 }
 
@@ -83,4 +88,120 @@ section {
 
 #footerRight {
     text-align: right;
+}
+
+@media (min-width: 481px) and (max-width: 1208px) {
+    #tableHeader a {
+        display: none;
+    }
+
+    #cellRight #hamburguer {
+        display: block;
+    }
+
+    #cellLeft {
+        text-align: center;
+    }
+
+    #cellLeft img {
+        width: 110px;
+    }
+
+    #cellMiddle {
+        font-size: 33px;
+    }
+
+    #cellRight {
+        text-align: center;
+    }
+
+    select {
+        display: none;
+        font-size: 13px;
+        border-radius: 20px;
+        border: 1px solid;
+        padding: 1px;
+    }
+
+    #hamburguer {
+        cursor: pointer;
+        font-size: 30px;
+    }
+
+    #tableBody td {
+        display: block;
+        width: 90%;
+        padding: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #tableFooter #footerMiddle {
+        font-size: 14px;
+    }
+
+    #tableFooter img {
+        width: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    #tableHeader a {
+        display: none;
+    }
+
+    #hamburguer {
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+    select {
+        display: none;
+        font-size: 8.5px;
+        border-radius: 20px;
+        border: 1px solid;
+        padding: 1px;
+    }
+
+    #tableHeader img {
+        height: 50px;
+    }
+
+    #cellLeft {
+        text-align: center;
+    }
+
+    #cellMiddle {
+        font-size: 20px;
+    }
+
+    #cellRight {
+        text-align: center;
+    }
+
+    #cellRight #hamburguer {
+        display: block;
+    }
+
+    #welcome {
+        font-size: 10px;
+    }
+    
+    section {
+        font-size: 10px;
+    }
+
+    #tableBody td {
+        display: block;
+        width: 100%;
+        padding: 0%;
+    }
+
+    #tableFooter #footerMiddle {
+        font-size: 8.5px;
+    }
+
+    #tableFooter img {
+        width: 70px;
+    }
 }

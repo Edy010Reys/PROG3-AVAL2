@@ -9,6 +9,27 @@ main {
 
 h1 {
     color: gray;
+    margin: 1%;
+}
+
+#pageInitial {
+    text-align: right;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+#pageInitial a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    padding: 8px;
+    background-color: gray;
+    border-radius: 20px;
+    border: 1px solid;
+}
+
+#up:hover {
+    color: rgb(39, 36, 36);
 }
 
 #input input {
@@ -40,7 +61,12 @@ h1 {
     border-radius: 20%;
     border: 2px solid rgb(170, 136, 73);
     list-style: none;
-    color:  gray;
+    color:  black;
+}
+
+h3 {
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 select {
@@ -50,16 +76,69 @@ select {
     padding: 5px;
 }
 
-a {
+#backInitial a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 17px;
+    margin: 1%;
+    padding: 5px;
     color: white;
-    padding: 8px;
     background-color: gray;
-    border-radius: 20px;
     border: 1px solid;
+    border-radius: 20px;
 }
 
-a:hover {
+#down:hover {
     color: rgb(39, 36, 36);
+}
+
+@media (min-width: 481px) and (max-width: 1208px) {
+    * {
+        margin: 1%;
+    }
+
+    #pageInitial {
+        margin-bottom: 3%;
+    }
+
+    #pageInitial a {
+        font-size: 13px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    #input input {
+        font-size: 20px;
+    }
+
+    #backInitial a {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    * {
+        margin: 1%;
+    }
+
+    #pageInitial {
+        margin-bottom: 3%;
+    }
+
+    #pageInitial a {
+        font-size: 11px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    #input input {
+        font-size: 15px;
+    }
+
+    #backInitial a {
+        font-size: 13px;
+    }
 }
