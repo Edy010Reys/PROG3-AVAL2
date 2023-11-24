@@ -2,9 +2,7 @@ const input = document.querySelector('#input input')
 const cards = document.querySelector('#cards')
 
 input.addEventListener('input', async () => {
-  let search = {
-    name: input.value
-  }
+  let search = {name: input.value}
   let data = await postNameCadidante(search)
   cards.innerHTML = ''
   data.map((elem) => {

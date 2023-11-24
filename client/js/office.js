@@ -2,19 +2,19 @@ const select = document.querySelector('#input select')
 const cards = document.querySelector('#cards')
 
 select.addEventListener('input', async () => {
-  let search = { role: select.value }
+  let search = {role: select.value}
   let data = await postRole(search)
   cards.innerHTML = ''
   data.map((elem) => {
     cards.insertAdjacentHTML('afterbegin',
-        `<ul id="card">
-            <li>
-                <h3>${elem.nome}</h3>
-                <p>Cargo: ${elem.cargo}</p>
-                <p>Votos recebido: ${elem.votacao}</p>
-                <p>Status: ${elem.status}</p>
-            </li>
-        </ul>`);
+      `<ul id="card">
+          <li>
+              <h3>${elem.nome}</h3>
+              <p>Cargo: ${elem.cargo}</p>
+              <p>Votos recebido: ${elem.votacao}</p>
+              <p>Status: ${elem.status}</p>
+          </li>
+      </ul>`);
     })
 })
 
